@@ -73,6 +73,9 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
 
 安装 Prettier 后，加入如下配置。 应用对应语言使用 Prettier ，并使用团队规范要求的格式化配置
 
+<details>
+    <summary>点击展开</summary>
+
 ```jsonc
 {
   "[json]": {
@@ -120,6 +123,7 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
   }
 }
 ```
+</details>
 
 ## 包工具说明
 
