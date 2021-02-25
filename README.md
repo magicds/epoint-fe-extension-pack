@@ -11,6 +11,8 @@
 - [mini Snippet](https://marketplace.visualstudio.com/items?itemName=littleSean.minisnippet)
 - [SVN](https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [vscode-fileheader](https://marketplace.visualstudio.com/items?itemName=mikey.vscode-fileheader)
 
 ## 统一配置
 
@@ -171,3 +173,12 @@ miniui 代码片段
 
 更多功能参考其文档。
 
+### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+检查单词拼写，防止出现低级错误。
+
+### [vscode-fileheader](https://marketplace.visualstudio.com/items?itemName=mikey.vscode-fileheader)
+
+自动维护文件头部注释
+
+![fileheader](./images/fileheader.gif)
