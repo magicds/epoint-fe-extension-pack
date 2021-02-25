@@ -16,7 +16,108 @@
 
 **ESLint**
 
+在vscode中配置文件中新增以下记录：
+
+```json
+{
+  "eslint.options": { "configFile": "C:/mydirectory/.eslintrc.js" }
+}
+```
+
+注意将 mydirectory 改为 自己放置的目录
+
+<details>
+    <summary>详细说明</summary>
+
+eslint 安装
+
+使用如下命令全局安装 eslint
+
+```sh
+npm install -g eslint --registry=https://registry.npm.taobao.org/
+```
+
+> 需要已经安装nodejs，未安装请前往 [https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)下载安装
+
+使用此配置
+
+**方式一：** 单个项目使用
+
+直接将此配置文件拷贝到项目根目录下即可
+
+**方式二：** 全部项目使用
+
+在vscode中配置文件中新增以下记录：
+
+```json
+{
+  "eslint.options": { "configFile": "C:/mydirectory/.eslintrc.js" }
+}
+```
+
+注意将 mydirectory 改为 自己放置的目录
+
+操作步骤如下：
+
+![](images/2021-02-03-14-48-05.png)
+
+![](images/2021-02-03-14-48-16.png)
+
+![](images/2021-02-03-14-48-24.png)
+
+</details>
+
 **Prettier**
+
+安装 Prettier 后，加入如下配置
+
+```jsonc
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.tabWidth": 2,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "wrapAttributes": false,
+      "printWidth": 120,
+      "jsxBracketSameLine": true
+    },
+    "prettier": { "trailingComma": "none", "jsxBracketSameLine": true }
+  }
+}
+```
 
 ## 包工具说明
 
