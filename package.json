@@ -1,7 +1,7 @@
 {
     "name": "epoint-fe-extension-pack",
-    "displayName": "新点前端扩展工具包",
-    "description": "新点前端扩展工具包",
+    "displayName": "新点前端VSCode扩展工具包",
+    "description": "新点前端VSCode扩展工具包",
     "version": "0.0.1",
     "publisher": "cdswyda",
     "engines": {
