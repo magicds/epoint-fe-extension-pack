@@ -121,33 +121,33 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
 
 ## 包工具说明
 
-### ESLint
+### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-代码检查
+代码检查，请务必按照统一配置中 ESLint 进行配置
 
-### Prettier
+### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-代码格式化
+代码格式化，请务必按照统一配置中 Prettier 进行配置
 
-### Vetur
+### [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 vue 开发支持
 
-### Live Server
+### [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-s
+启动一个本地服务器，修改文件自动刷新浏览器
 
-### Live Sass Compiler
+### [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
 
-s
+观测编译 sass/scss
 
-### mini Snippet
+### [mini Snippet](https://marketplace.visualstudio.com/items?itemName=littleSean.minisnippet)
 
 miniui 代码片段
 
 ![](images/mini-snippet.gif)
 
-### SVN
+### [SVN](https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm)
 
 在vscode中使用SVN
 
