@@ -1,15 +1,27 @@
 {
     "name": "epoint-fe-extension-pack",
-    "displayName": "epoint-fe-extension-pack",
+    "displayName": "新点前端扩展工具包",
     "description": "",
     "version": "0.0.1",
+    "publisher": "cdswyda",
     "engines": {
         "vscode": "^1.53.0"
+    },
+    "repository": {
+        "type":"git",
+        "url": "https://github.com/cdswyda/epoint-fe-extension-pack"
     },
     "categories": [
         "Extension Packs"
     ],
     "extensionPack": [ 
-        "publisher.extensionName"
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ritwickdey.liveserver",
+        "ritwickdey.live-sass",
+        "ms-ceintl.vscode-language-pack-zh-hans",
+        "littlesean.minisnippet",
+        "johnstoncode.svn-scm",
+        "eamodio.gitlens"
     ]
 }
