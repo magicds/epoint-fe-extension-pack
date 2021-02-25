@@ -2,7 +2,7 @@
     "name": "epoint-fe-extension-pack",
     "displayName": "新点前端VSCode扩展工具包",
     "description": "新点前端VSCode扩展工具包",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "cdswyda",
     "engines": {
         "vscode": "^1.53.0"
@@ -23,5 +23,9 @@
         "littlesean.minisnippet",
         "johnstoncode.svn-scm",
         "eamodio.gitlens"
-    ]
+    ],
+    "scripts": {
+        "publish": "vsce publish",
+        "sync": "node a.js"
+    }
 }
