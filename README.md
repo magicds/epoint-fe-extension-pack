@@ -105,14 +105,14 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.tabWidth": 2,
+  "prettier.tabWidth": 4,
   "prettier.jsxBracketSameLine": true,
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
   "prettier.semi": true,
   "prettier.trailingComma": "none",
   "vetur.format.defaultFormatter.html": "prettier",
-  "vetur.format.options.tabSize": 2,
+  "vetur.format.options.tabSize": 4,
   "vetur.format.defaultFormatterOptions": {
     "prettyhtml": {
       "wrapAttributes": false,
