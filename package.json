@@ -2,7 +2,7 @@
     "name": "epoint-fe-extension-pack",
     "displayName": "新点前端VSCode扩展工具包",
     "description": "新点前端VSCode扩展工具包",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "cdswyda",
     "engines": {
         "vscode": "^1.53.0"
@@ -15,6 +15,7 @@
         "Extension Packs"
     ],
     "extensionPack": [ 
+        "SonarSource.sonarlint-vscode",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "ritwickdey.liveserver",
