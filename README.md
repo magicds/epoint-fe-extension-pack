@@ -2,6 +2,7 @@
 
 ## 扩展包内容
 
+- [sonarlint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
@@ -126,6 +127,10 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
 </details>
 
 ## 包工具说明
+
+## [sonarlint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
+暂时参考 [epoint sonarlint](https://fdoc.epoint.com.cn/onlinedoc/docshow/docshow?columnguid=018&menuguid=018014&nodeguid=f5dd6b2e-86b5-4e40-ba25-d599089fa95b#4%E3%80%81vscode%E5%AE%89%E8%A3%85%E3%80%81%E6%9B%B4%E6%96%B0%E5%92%8C%E4%BD%BF%E7%94%A8) 进行配置。 后续会对此做封装和修改，方便使用。
 
 ### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
