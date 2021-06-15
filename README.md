@@ -17,6 +17,30 @@
 
 ## 统一配置
 
+**sonarlint**
+
+安装好sonarlint之后，在vscode的配置文件中新增以下配置，即可直接接入我们统一最新的规则集。
+
+```json
+{
+   "sonarlint.connectedMode.connections.sonarqube": [
+       {
+           "serverUrl": "http://192.168.217.213/",
+           "token": "aaec8b1347321d20c04ebf760925c95625036844"
+       }
+   ],
+   "sonarlint.connectedMode.project": {
+       "projectKey": "epointfe"
+   }
+}
+```
+
+<details>
+    <summary>查看效果</summary>
+    <img src="images/2021-06-15-10-50-20.png">
+</details>
+
+
 **ESLint**
 
 在vscode中配置文件中新增以下记录：
@@ -130,7 +154,7 @@ npm install -g eslint --registry=https://registry.npm.taobao.org/
 
 ## [sonarlint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
-暂时参考 [epoint sonarlint](https://fdoc.epoint.com.cn/onlinedoc/docshow/docshow?columnguid=018&menuguid=018014&nodeguid=f5dd6b2e-86b5-4e40-ba25-d599089fa95b#4%E3%80%81vscode%E5%AE%89%E8%A3%85%E3%80%81%E6%9B%B4%E6%96%B0%E5%92%8C%E4%BD%BF%E7%94%A8) 进行配置。 后续会对此做封装和修改，方便使用。
+所有前端开发人员直接按照上面的 **统一配置 -> sonarlint** 章节的内容进行配置即可。
 
 ### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
