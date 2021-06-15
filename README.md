@@ -43,6 +43,8 @@
 
 **ESLint**
 
+统一的eslint配置文件请从 [http://192.168.0.200/fepublic/lintconfig](http://192.168.0.200/fepublic/lintconfig) 获取。
+
 在vscode中配置文件中新增以下记录：
 
 ```json
