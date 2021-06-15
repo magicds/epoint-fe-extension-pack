@@ -9,7 +9,7 @@
     },
     "repository": {
         "type":"git",
-        "url": "https://github.com/cdswyda/epoint-fe-extension-pack"
+        "url": "http://192.168.0.200/fepublic/epoint-fe-extension-pack"
     },
     "categories": [
         "Extension Packs"
