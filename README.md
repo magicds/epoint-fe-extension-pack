@@ -12,6 +12,7 @@
 - [mini Snippet](https://marketplace.visualstudio.com/items?itemName=littleSean.minisnippet)
 - [SVN](https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [vscode-fileheader](https://marketplace.visualstudio.com/items?itemName=mikey.vscode-fileheader)
 
@@ -207,6 +208,12 @@ miniui 代码片段
 ![](images/gitlen-3.gif)
 
 更多功能参考其文档。
+
+### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+可视化展示仓库的分支，合并情况，并可以直接在右键进行分支合并、`cherry pick` 等相关操作。
+
+![](images/2021-10-25-15-34-50.png)
 
 ### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 

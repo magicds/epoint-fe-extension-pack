@@ -2,7 +2,7 @@
     "name": "epoint-fe-extension-pack",
     "displayName": "新点前端VSCode扩展工具包",
     "description": "新点前端VSCode扩展工具包",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "cdswyda",
     "engines": {
         "vscode": "^1.53.0"
@@ -20,10 +20,12 @@
         "esbenp.prettier-vscode",
         "ritwickdey.liveserver",
         "ritwickdey.live-sass",
+        "octref.vetur",
         "ms-ceintl.vscode-language-pack-zh-hans",
         "littlesean.minisnippet",
         "johnstoncode.svn-scm",
         "eamodio.gitlens",
+        "mhutchie.git-graph",
         "streetsidesoftware.code-spell-checker",
         "mikey.vscode-fileheader"
     ],
